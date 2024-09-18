@@ -1,5 +1,13 @@
 execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run execute as @s run attribute @s minecraft:generic.scale base set 0.5
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run tellraw @s {"text":"¡Te has encogido con la Chiquitolina! Durarás pequeño por una hora."}
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run scoreboard players set @s chiquitolina_timer 0
+
 execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run scoreboard players set @s time_tick 1
-execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}'}}}] run advancement grant @s only chiquitolina:eat_chiquitolina
+
+execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run advancement grant @s only chiquitolina:eat_chiquitolina
+
+# execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run scoreboard players set @s timer_cycle 1
+
+# execute as @a[nbt={SelectedItem:{id:"minecraft:bread",components:{"minecraft:item_name":'{"bold":true,"color":"red","text":"CHIQUITOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Extraña masa que compacta todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run scoreboard players set @s minutos 60
