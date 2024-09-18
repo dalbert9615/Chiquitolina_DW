@@ -1,0 +1,26 @@
+{
+    "criteria": {
+      "tick": {
+        "trigger": "minecraft:tick"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "LA CHIQUILOTINA",
+        "color": "blue",
+        "bold": true
+      },
+      "description": {
+        "text": "Déjate llevar por las pequeñas curiosidades.",
+        "color": "#7f8c8d"
+      },
+      "icon": {
+        "id": "minecraft:ladder"
+      },
+      "background": "minecraft:textures/block/purple_wool.png", 
+      "show_toast": false,
+      "announce_to_chat": false,
+      "hidden": false
+    }
+  }
+  

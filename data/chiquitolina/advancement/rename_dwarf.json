@@ -1,0 +1,25 @@
+{
+  "parent": "chiquitolina:root",
+  "criteria": {
+    "rename_dwarf": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "title": {
+      "text": "¿Quién es Dwarf?",
+      "color": "#D2691E"
+    },
+    "description": {
+      "text": "Renombra a un aldeano bibliotecario como Dwarf.",
+      "color": "#ecf0f1"
+    },
+    "icon": {
+      "id": "minecraft:name_tag"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  }
+}
