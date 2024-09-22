@@ -1,0 +1,1 @@
+execute as @a[scores={chiquitolina_timer=..3600}] at @s run function chiquitolina:logic/invers_chiquitolina

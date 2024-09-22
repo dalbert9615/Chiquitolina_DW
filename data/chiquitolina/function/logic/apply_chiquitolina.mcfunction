@@ -2,7 +2,7 @@
 attribute @s minecraft:generic.scale base set 0.5
 
 # Enviar un mensaje al jugador
-tellraw @s {"text":"¡Te has encogido con la Chiquitolina! Durarás pequeño por una hora."}
+tellraw @s {"text":"¡Te has encogido con la Chiquitolina! Los efectos durarán por una hora."}
 
 # Establecer el marcador de tiempo de la Chiquitolina
 scoreboard players set @s chiquitolina_timer 0
