@@ -1,0 +1,25 @@
+{
+    "parent": "chiquitolina:eat_gigantolina",
+    "criteria": {
+      "eat_gigantolina": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "Galleta tranquilizadora",
+        "color": "#532321"
+      },
+      "description": {
+        "text": "Calma tus grandes dotes tomando una galletita.",
+        "color": "#c38c49"
+      },
+      "icon": {
+        "id": "minecraft:cookie"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

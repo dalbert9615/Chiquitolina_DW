@@ -1,0 +1,25 @@
+{
+    "parent": "chiquitolina:eat_chiquitolina",
+    "criteria": {
+      "eat_anti_chiquitolina": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "El melón curativo",
+        "color": "#4ea725"
+      },
+      "description": {
+        "text": "Consume un melón curativo para restaurar los efectos de la Chiquitolina.",
+        "color": "#2bad86"
+      },
+      "icon": {
+        "id": "minecraft:melon_slice"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }

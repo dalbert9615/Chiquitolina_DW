@@ -1,0 +1,25 @@
+{
+    "parent": "chiquitolina:rename_dwarf",
+    "criteria": {
+      "eat_gigantolina": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "Explosión de azúcar",
+        "color": "#cb9021"
+      },
+      "description": {
+        "text": "Devora el reluciente pastel de calabaza y descubra grandes poderes.",
+        "color": "#cab439"
+      },
+      "icon": {
+        "id": "minecraft:pumpkin_pie"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    }
+  }
