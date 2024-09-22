@@ -1,5 +1,8 @@
 {
     "values": [
-        "chiquitolina:tick"
+        "chiquitolina:detectors/detect_used_anti_chiquitolina",
+        "chiquitolina:detectors/detect_used_chiquitolina",
+        "chiquitolina:detectors/detect_villager",
+        "chiquitolina:detectors/timer_handle"
     ]
 }

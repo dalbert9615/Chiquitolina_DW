@@ -1,3 +1,7 @@
+# Solo reiniciar etiquetas y puntajes de los jugadores que han comido un Meloncito
+scoreboard players set @s hasEatenBread 0
+tag @s remove holdingBread
+
 # Aplicar efecto de encogimiento
 attribute @s minecraft:generic.scale base set 0.5
 
