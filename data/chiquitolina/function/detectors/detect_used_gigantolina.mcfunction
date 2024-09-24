@@ -1,4 +1,4 @@
-# Ejecutar la detección de la Chiquitolina
+# Ejecutar la detección de la Gigantolina
 execute as @a[scores={hasEatenPumpkinCake=0},nbt={SelectedItem:{id:"minecraft:pumpkin_pie",components:{"minecraft:item_name":'{"bold":true,"color":"dark_purple","text":"GIGANTOLINA"}',"minecraft:lore":['{"color":"gray","italic":true,"text":"Curioso pastel que engrande todo el valor del usuario"}'],"minecraft:rarity":"epic","minecraft:enchantment_glint_override":true}}}] run tag @s add holdingPumpkinCake
 
 
