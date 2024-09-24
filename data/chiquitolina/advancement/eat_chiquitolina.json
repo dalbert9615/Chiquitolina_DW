@@ -1,25 +1,25 @@
-{
-  "parent": "chiquitolina:rename_dwarf",
-  "criteria": {
-    "eat_chiquitolina": {
-      "trigger": "minecraft:impossible"
+  {
+    "parent": "chiquitolina:custom_foods",
+    "criteria": {
+      "eat_chiquitolina": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "display": {
+      "title": {
+        "text": "David mató a Goliat",
+        "color": "#e74c3c"
+      },
+      "description": {
+        "text": "Prueba la chiquitolina y obten una gran atención a los pequeños detalles.",
+        "color": "#c0392b"
+      },
+      "icon": {
+        "id": "minecraft:bread"
+      },
+      "frame": "goal",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
     }
-  },
-  "display": {
-    "title": {
-      "text": "El poder del pan",
-      "color": "#e74c3c"
-    },
-    "description": {
-      "text": "Prueba la chiquitolina y obten una gran atención a los pequeños detalles.",
-      "color": "#c0392b"
-    },
-    "icon": {
-      "id": "minecraft:bread"
-    },
-    "frame": "goal",
-    "show_toast": true,
-    "announce_to_chat": true,
-    "hidden": false
   }
-}

@@ -1,0 +1,39 @@
+{
+    "parent": "chiquitolina:custom_potions",
+    "criteria": {
+        "drink_quarry": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:haste": {
+                        "amplifier": 1,
+                        "duration": 72000
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "¿Por qué arden mis manos?",
+            "color": "yellow"
+        },
+        "description": {
+            "text": "Al probar unas cuantas gotas de Quarry tus manos obtendrán una enorme energía incontrolable.",
+            "color": "#c8d538"
+        },
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": {
+					"custom_color": 12564069
+				},
+				"minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "parent": "chiquitolina:rename_dwarf",
+    "criteria": {
+        "eat_powerful_apple": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "components": {
+                        "minecraft:custom_name": "{\"bold\":true,\"color\":\"red\",\"text\":\"Gran Manzana de ADAN\"}"
+                    }
+                }
+            }
+        }
+    },
+    "display": {
+        "title": {
+            "text": "¿Es este el paraiso?",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "No todo lo que vende Dwarf es preparado por él. Atrévete a probar esta reluciente fruta que encontró en el bosque y descubre su poder.",
+            "color": "#d51313"
+        },
+        "icon": {
+            "id": "minecraft:apple",
+            "components": {
+                "minecraft:enchantment_glint_override": true
+            }
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    }
+}

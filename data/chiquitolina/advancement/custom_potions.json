@@ -1,0 +1,31 @@
+{
+    "parent": "chiquitolina:rename_dwarf",
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "title": {
+            "text": "¡Divertidas Pociones!",
+            "color": "blue",
+            "bold": true
+        },
+        "description": {
+            "text": "Atiende a las recomendaciones de la faceta Barman de Dwarf.",
+            "color": "#30cdd8"
+        },
+        "icon": {
+            "id": "minecraft:lingering_potion",
+            "components": {
+                "minecraft:potion_contents": {
+					"custom_color": 12935143
+				},
+				"minecraft:enchantment_glint_override": true
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    }
+}

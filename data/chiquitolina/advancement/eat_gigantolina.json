@@ -1,5 +1,5 @@
 {
-    "parent": "chiquitolina:rename_dwarf",
+    "parent": "chiquitolina:custom_foods",
     "criteria": {
       "eat_gigantolina": {
         "trigger": "minecraft:impossible"
@@ -7,7 +7,7 @@
     },
     "display": {
       "title": {
-        "text": "Explosión de azúcar",
+        "text": "¡Dinopoder actívate!",
         "color": "#cb9021"
       },
       "description": {
